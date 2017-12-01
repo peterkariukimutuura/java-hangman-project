@@ -5,8 +5,8 @@ public class hangmanTest{
 
 
     @Test
-    public static void CheckUserInput(String Username){
-        
+    public void CheckUserInput(){
+        final String Username;
         Boolean status;
         if (Username.equals(null)||Username.equals("")) {
             System.out.println("Username is required"); 
